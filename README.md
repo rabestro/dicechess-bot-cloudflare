@@ -1,6 +1,13 @@
 # Dice Chess bot — Cloudflare Workers (engine-powered)
 
-A Dice Chess webhook bot that runs the **real game engine** —
+[![CI](https://github.com/rabestro/dicechess-bot-cloudflare/actions/workflows/ci.yml/badge.svg)](https://github.com/rabestro/dicechess-bot-cloudflare/actions/workflows/ci.yml)
+[![Play Live](https://img.shields.io/badge/Play-Live-success)](https://play.jc.id.lv/)
+[![Leaderboard](https://img.shields.io/badge/Ladder-Leaderboard-1E90FF)](https://play.jc.id.lv/leaderboard)
+[![Engine](https://img.shields.io/badge/Engine-dicechess--engine--scala-8A2BE2)](https://github.com/rabestro/dicechess-engine-scala)
+[![Bot API](https://img.shields.io/badge/Docs-Bot%20API-orange)](https://jc.id.lv/dicechess-play-api/)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-lightgrey)](./LICENSE)
+
+The live [`cloudflare/scala-aggressive-book`](https://play.jc.id.lv/leaderboard) ladder bot. A Dice Chess webhook bot that runs the **real game engine** —
 [`dicechess-engine-scala`](https://github.com/rabestro/dicechess-engine-scala) — on **Cloudflare
 Workers**, through the engine's **Scala.js** build. It plays the engine's **aggressive** king-hunt
 search behind the exported **opening book** (`aggressive-book`). No container, no cold start: the
