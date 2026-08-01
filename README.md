@@ -4,7 +4,7 @@
 [![Play Live](https://img.shields.io/badge/Play-Live-success)](https://play.jc.id.lv/)
 [![Leaderboard](https://img.shields.io/badge/Ladder-Leaderboard-1E90FF)](https://play.jc.id.lv/leaderboard)
 [![Engine](https://img.shields.io/badge/Engine-dicechess--engine--scala-8A2BE2)](https://github.com/rabestro/dicechess-engine-scala)
-[![Bot API](https://img.shields.io/badge/Docs-Bot%20API-orange)](https://jc.id.lv/dicechess-play-api/)
+[![Bot API](https://img.shields.io/badge/Docs-Bot%20API-orange)](https://bots.jc.id.lv/)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-lightgrey)](./LICENSE)
 
 The live [`cloudflare/scala-aggressive-book`](https://play.jc.id.lv/leaderboard) ladder bot. A Dice Chess webhook bot that runs the **real game engine** —
@@ -91,5 +91,5 @@ curl -X POST "$BASE/bot/ladder/join" -H "Authorization: Bearer <token>"
 
 The `workers.dev` URL is HTTPS and public, which is all the webhook registration requires — no
 custom domain needed. Before step 4 you can [play against it
-yourself](https://jc.id.lv/dicechess-play-api/play-your-bot/) from the lobby to confirm it plays a
-legal game. Full platform reference: <https://jc.id.lv/dicechess-play-api/>.
+yourself](https://bots.jc.id.lv/play-your-bot/) from the lobby to confirm it plays a
+legal game. Full platform reference: <https://bots.jc.id.lv/>.
